@@ -1,6 +1,6 @@
 clc
 clear
-%从jpg文件中读取数据
+%从文件中读取数据
 %首先获得指定文件夹下的所有文件的文件名
 directory = uigetdir('F:\matlab2016\bin\AISHELL-2019C-EVAL','ACE600');
 dirs=dir(directory);%dirs结构体类型,不仅包括文件名，还包含文件其他信息。
